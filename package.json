@@ -1,0 +1,24 @@
+{
+  "name": "goit-js-hw-09-gallery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dovzhenko-olga/goit-js-hw-09-gallery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dovzhenko-olga/goit-js-hw-09-gallery/issues"
+  },
+  "homepage": "https://github.com/Dovzhenko-olga/goit-js-hw-09-gallery#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
