@@ -5,7 +5,9 @@
   "main": "main.js",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html --public-url /goit-js-hw-09-gallery/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -17,8 +19,12 @@
   "bugs": {
     "url": "https://github.com/Dovzhenko-olga/goit-js-hw-09-gallery/issues"
   },
-  "homepage": "https://github.com/Dovzhenko-olga/goit-js-hw-09-gallery#readme",
+  "homepage": "https://Dovzhenko-olga.github.io/goit-js-hw-09-gallery",
   "devDependencies": {
     "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "gh-pages": "^3.1.0",
+    "parcel-plugin-nuke-dist": "^1.0.1"
   }
 }
